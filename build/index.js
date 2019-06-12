@@ -101,8 +101,8 @@ var WordFilter = /** @class */ (function () {
         stars = stars + replaceValue;
       }
       // 将敏感字换成 STARS
-      var reg = new RegExp(sWord, 'g');
-      searchValue = searchValue.replace(reg, stars);
+      // let reg = new RegExp(sWord, 'g');
+      searchValue = searchValue.replace(sWord, stars);
     }
     return searchValue;
   };

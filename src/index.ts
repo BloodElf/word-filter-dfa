@@ -115,8 +115,8 @@ export class WordFilter {
             }
 
             // 将敏感字换成 STARS
-            let reg = new RegExp(sWord, 'g');
-            searchValue = searchValue.replace(reg, stars);
+            // let reg = new RegExp(sWord, 'g');
+            searchValue = searchValue.replace(sWord, stars);
         }
 
         return searchValue;
