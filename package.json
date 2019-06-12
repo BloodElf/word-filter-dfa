@@ -14,7 +14,9 @@
   },
   "main": "./index.js",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^3.5.1"
+  },
   "devDependencies": {
     "@types/node": "^9.4.1"
   }
